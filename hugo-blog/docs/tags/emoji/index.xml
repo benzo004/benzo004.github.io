@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emoji on Portfolio</title>
+    <link>https://benzo004.github.io/tags/emoji/</link>
+    <description>Recent content in Emoji on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://benzo004.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro OSINT</title>
+      <link>https://benzo004.github.io/posts/recherche_information/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts/recherche_information/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Dans le cadre de ce projet réalisé au sein de la GCS, nous étions chargés de récolter un maximum d&amp;rsquo;information à propos d&amp;rsquo;une entreprise de notre choix.&#xA;Plus précisément&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://benzo004.github.io/posts-copy/emoji-support/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suporte a Emojis</title>
+      <link>https://benzo004.github.io/posts-copy/emoji-support.pt-br/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/emoji-support.pt-br/</guid>
+      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
