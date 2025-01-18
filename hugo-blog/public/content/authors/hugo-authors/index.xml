@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors of Hugo on Portfolio</title>
+    <link>http://localhost:1313/content/authors/hugo-authors/</link>
+    <description>Recent content in Authors of Hugo on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Jan 2023 01:15:52 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/content/authors/hugo-authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autores de Hugo</title>
+      <link>http://localhost:1313/autores/autores-de-hugo/</link>
+      <pubDate>Thu, 05 Jan 2023 01:15:52 +0100</pubDate>
+      <guid>http://localhost:1313/autores/autores-de-hugo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

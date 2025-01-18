@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro OSINT</title>
+      <link>http://localhost:1313/posts/recherche_information/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/recherche_information/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Dans le cadre de ce projet réalisé au sein de la GCS, nous étions chargés de récolter un maximum d&amp;rsquo;information à propos d&amp;rsquo;une entreprise de notre choix.&#xA;Plus précisément&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Développement d&#39;un portfolio</title>
+      <link>http://localhost:1313/posts/devportfolio/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devportfolio/</guid>
+      <description>&lt;p&gt;Pour développer ce portfolio, je me suis servi du framework HUGO.&#xA;Je l&amp;rsquo;ai réalisé dans le cadre de mon parcours scolaire.&#xA;Je m&amp;rsquo;en sers pour afficher mes projets, et pour fournir des informations sur moi.&#xA;J&amp;rsquo;ai choisi Hugo car c&amp;rsquo;est le meilleur framework grâce à sa vitesse inégalée, sa flexibilité et sa facilité d&amp;rsquo;utilisation pour créer des sites statiques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test d&#39;intrusion sur une machine fictive</title>
+      <link>http://localhost:1313/posts/hugo-coder-wiki/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
