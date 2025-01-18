@@ -2,108 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programador Solitário on Portfolio</title>
-    <link>http://localhost:1313/authors/programador-solit%C3%A1rio/</link>
+    <link>https://benzo004.github.io/authors/programador-solit%C3%A1rio/</link>
     <description>Recent content in Programador Solitário on Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/programador-solit%C3%A1rio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://benzo004.github.io/authors/programador-solit%C3%A1rio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guia de Sintaxe Markdown</title>
-      <link>http://localhost:1313/posts-copy/markdown-syntax.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/markdown-syntax.pt-br/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/markdown-syntax.pt-br/</guid>
-      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Guia de Sintaxe Markdown</title>
-      <link>http://localhost:1313/posts/markdown-syntax.pt-br/</link>
-      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/markdown-syntax.pt-br/</guid>
       <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Conteúdo Rico</title>
-      <link>http://localhost:1313/posts-copy/rich-content.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/rich-content.pt-br/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/rich-content.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/rich-content.pt-br/</guid>
       <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Mais Conteúdo Rico</title>
-      <link>http://localhost:1313/posts-copy/more-rich-content.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/more-rich-content.pt-br/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/more-rich-content.pt-br/</guid>
-      <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
-    </item>
-    <item>
-      <title>Mais Conteúdo Rico</title>
-      <link>http://localhost:1313/posts/more-rich-content.pt-br/</link>
-      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/more-rich-content.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/more-rich-content.pt-br/</guid>
       <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Configuração de Equações Matemáticas</title>
-      <link>http://localhost:1313/posts-copy/math-typesetting.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/math-typesetting.pt-br/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/math-typesetting.pt-br/</guid>
-      <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Configuração de Equações Matemáticas</title>
-      <link>http://localhost:1313/posts/math-typesetting.pt-br/</link>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/math-typesetting.pt-br/</guid>
       <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTML and CSS only tabs</title>
-      <link>http://localhost:1313/posts-copy/html-and-css-only-tabs.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/html-and-css-only-tabs.pt-br/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/html-and-css-only-tabs.pt-br/</guid>
-      <description>&lt;h2 id=&#34;shortcodes&#34;&gt;&#xD;&#xA;  Shortcodes&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#shortcodes&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;O seguinte conteúdo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Goodbye&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Goodbye Everybody!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Irá gerar:&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;tabs tabs-left&#34;&gt;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-0&#34; checked/&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-0&#34; class=&#34;tab-label&#34;&gt;Hello&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-0&#34;&gt;&#xD;&#xA;  Hello World!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-1&#34; /&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-1&#34; class=&#34;tab-label&#34;&gt;Goodbye&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-1&#34;&gt;&#xD;&#xA;  Goodbye Everybody!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;h2 id=&#34;alinhamento-à-direita&#34;&gt;&#xD;&#xA;  Alinhamento à direita&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#alinhamento-%c3%a0-direita&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Você também pode alinhas as tabs à direita:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>HTML and CSS only tabs</title>
-      <link>http://localhost:1313/posts/html-and-css-only-tabs.pt-br/</link>
-      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/html-and-css-only-tabs.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/html-and-css-only-tabs.pt-br/</guid>
       <description>&lt;h2 id=&#34;shortcodes&#34;&gt;&#xD;&#xA;  Shortcodes&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#shortcodes&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;O seguinte conteúdo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Goodbye&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Goodbye Everybody!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Irá gerar:&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;tabs tabs-left&#34;&gt;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-0&#34; checked/&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-0&#34; class=&#34;tab-label&#34;&gt;Hello&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-0&#34;&gt;&#xD;&#xA;  Hello World!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-1&#34; /&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-1&#34; class=&#34;tab-label&#34;&gt;Goodbye&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-1&#34;&gt;&#xD;&#xA;  Goodbye Everybody!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;h2 id=&#34;alinhamento-à-direita&#34;&gt;&#xD;&#xA;  Alinhamento à direita&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#alinhamento-%c3%a0-direita&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Você também pode alinhas as tabs à direita:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Suporte a Emojis</title>
-      <link>http://localhost:1313/posts-copy/emoji-support.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/emoji-support.pt-br/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/emoji-support.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/emoji-support.pt-br/</guid>
       <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Página Externa: Wiki Hugo Coder</title>
-      <link>http://localhost:1313/posts-copy/hugo-coder-wiki/</link>
+      <link>https://benzo004.github.io/posts-copy/hugo-coder-wiki/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/hugo-coder-wiki/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Página Externa: Wiki Hugo Coder</title>
-      <link>http://localhost:1313/posts/hugo-coder-wiki/</link>
-      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-coder-wiki/</guid>
+      <guid>https://benzo004.github.io/posts-copy/hugo-coder-wiki/</guid>
       <description></description>
     </item>
     <item>
       <title>Texto de Exemplo</title>
-      <link>http://localhost:1313/posts-copy/placeholder-text.pt-br/</link>
+      <link>https://benzo004.github.io/posts-copy/placeholder-text.pt-br/</link>
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts-copy/placeholder-text.pt-br/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Texto de Exemplo</title>
-      <link>http://localhost:1313/posts/placeholder-text.pt-br/</link>
-      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/placeholder-text.pt-br/</guid>
+      <guid>https://benzo004.github.io/posts-copy/placeholder-text.pt-br/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
   </channel>
