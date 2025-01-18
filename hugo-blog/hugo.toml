@@ -15,6 +15,9 @@ shortname = "yourdiscussshortname"
 [markup.highlight]
 style = "github-dark"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   author = "Andrii"
   info = "Cybersecurity student"
@@ -36,6 +39,8 @@ style = "github-dark"
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [taxonomies]
   category = "categories"
