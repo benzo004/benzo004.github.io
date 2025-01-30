@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Portfolio</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in PHP on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test d&#39;intrusion sur une machine fictive</title>
+      <link>http://localhost:1313/posts/hugo-coder-wiki/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-coder-wiki/</guid>
+      <description>&lt;p&gt;Lors de ce projet réalisé au sein de la GCS, nous avons été préparés pour un test de pénetration sur une machine fictive.&lt;/p&gt;&#xA;&lt;p&gt;J&#39;ai acquis les connaissances suivantes :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bases PHP &amp;amp; SQL&lt;/li&gt;&#xA;&lt;li&gt;Fondamentaux Linux&lt;/li&gt;&#xA;&lt;li&gt;Bases de pentest (Injection SQL, Reverse Shell, ffuf &amp;amp; dirb, Elévation de privilèges avec linpeas...)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

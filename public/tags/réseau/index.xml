@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Réseau on Portfolio</title>
+    <link>http://localhost:1313/tags/r%C3%A9seau/</link>
+    <description>Recent content in Réseau on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/r%C3%A9seau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro Informatique Systèmes Réseaux</title>
+      <link>http://localhost:1313/posts/intro-isr/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/intro-isr/</guid>
+      <description>&lt;p&gt;Lors de cette semaine de &#39;formation&#39;, j&#39;ai acquis les connaissances fondamentales suivantes :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Types de réseaux (PAN, LAN, MAN, WAN)&lt;/li&gt;&#xA;&lt;li&gt;Modèle OSI et ses couches&lt;/li&gt;&#xA;&lt;li&gt;Le rôle de différents équipements réseau (Câbles, Hubs, Switches, Routers, Firewalls...)&lt;/li&gt;&#xA;&lt;li&gt;Différents protocoles réseau (TCP &amp;amp; UDP, DHCP, DNS, ICMP...)&lt;/li&gt;&#xA;&lt;li&gt;Construction d&#39;une infrastructure réseau à l&#39;aide de Cisco Packet Tracer&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

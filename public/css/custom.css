@@ -1,0 +1,91 @@
+/* Custom styles for Projects */
+.post {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post:hover {
+    transform: translateY(-3px);
+}
+
+.post-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--content-link-color);
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: var(--content-secondary-color);
+    margin-bottom: 1rem;
+}
+
+.post-content {
+    line-height: 1.8;
+}
+
+.post-tags {
+    margin-top: 1.5rem;
+}
+
+.post-tag {
+    display: inline-block;
+    background: var(--content-link-color);
+    color: var(--bg-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: opacity 0.2s ease;
+}
+
+.post-tag:hover {
+    opacity: 0.8;
+}
+
+/* Improve readability */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Add nice typography */
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+h1, h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Style lists */
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Code blocks */
+pre {
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}

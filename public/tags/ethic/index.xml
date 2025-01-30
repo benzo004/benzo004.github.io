@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethic on Portfolio</title>
+    <link>http://localhost:1313/tags/ethic/</link>
+    <description>Recent content in Ethic on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ethic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro OSINT</title>
+      <link>http://localhost:1313/posts/recherche_information/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/recherche_information/</guid>
+      <description>&lt;!-- Emojis podem ser ativados em um projeto Hugo de diversar formas.&#xD;&#xA;&#xD;&#xA;more&#xD;&#xA;&#xD;&#xA;A função [`emojify`](https://gohugo.io/functions/emojify/) pode ser chamada diretamente nos templates ou com [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).&#xD;&#xA;&#xD;&#xA;Para ativar os emojis globalmente, aplique `enableEmoji` com o valor `true` na [configuração](https://gohugo.io/getting-started/configuration/) do seu site e então você poderá adicionar códigos de emoji diretamente nos arquivos de conteúdo. Por exemplo:&#xD;&#xA;&#xD;&#xA;&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;O [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) é uma referência útil para identificar códigos de emojis.&#xD;&#xA;&#xD;&#xA;---&#xD;&#xA;&#xD;&#xA;**Nota:** Os passos anteriores ativam os caractéres e sequências de emoji do Padrão Unicode no Hugo, porém a renderização desses glifos depende do navegador e plataforma utilizada. Para escolher o estilo dos emojis você pode tanto usar um font de emoji de terceiros ou uma lista de fontes. Por exemplo:&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.emoji {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA; --&gt;&#xD;&#xA;&lt;p&gt;Dans le cadre de ce projet réalisé au sein de la GCS, nous étions chargés de récolter un maximum d&#39;information à propos d&#39;une entreprise de notre choix.&#xA;Plus précisément&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

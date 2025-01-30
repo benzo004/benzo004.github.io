@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSV on Portfolio</title>
+    <link>http://localhost:1313/tags/csv/</link>
+    <description>Recent content in CSV on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithmie Python</title>
+      <link>http://localhost:1313/posts/algo/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/algo/</guid>
+      <description>&lt;p&gt;Ma mission était de réaliser un gestionnaire de produits Python avec authentification qui permettrait de traiter plusieurs fichiers CSV contenant des données de produits et d&#39;utilisateurs.&#xA;J&#39;ai utilisé la librairie pandas pour lire et manipuler les données CSV.&lt;/p&gt;&#xA;&lt;p&gt;Lors de la création du compte, le mot de passe de l&#39;utilisateur est salé et haché avec le module hashlib, le mot de passe n&#39;est donc jamais en clair.&#xA;La connexion de l&#39;utilisateur était sécurisée avec une double vérification :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
