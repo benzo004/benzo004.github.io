@@ -1,54 +1,107 @@
 +++
-title = "Intro OSINT"
-date = "2024-11-07"
-description = "OSINT"
+title = "Projet OSINT : Recherche d'Informations"
+date = "2024-11-04"
+description = "Collecte et analyse d'informations en source ouverte"
 tags = [
-    "hugo",
-    "markdown",
-    "emoji",
+    "OSINT",
+    "Cybersécurité",
+    "Analyse",
+    "Recherche"
 ]
 +++
 
-<!-- Emojis podem ser ativados em um projeto Hugo de diversar formas.
+<div class="project-content">
 
-more
+# 🔍 Contexte du Projet
 
-A função [`emojify`](https://gohugo.io/functions/emojify/) pode ser chamada diretamente nos templates ou com [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
+Dans le cadre de ma formation à la Guardia Cybersecurity School, j'ai mené un projet d'OSINT (Open Source Intelligence) centré sur l'analyse approfondie d'une entreprise. Cette mission m'a permis de développer mes compétences en matière de collecte et d'analyse d'informations en source ouverte.
 
-Para ativar os emojis globalmente, aplique `enableEmoji` com o valor `true` na [configuração](https://gohugo.io/getting-started/configuration/) do seu site e então você poderá adicionar códigos de emoji diretamente nos arquivos de conteúdo. Por exemplo:
+# 🎯 Objectifs
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+<div class="objectives-grid">
+<div class="objective-item">
 
-O [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) é uma referência útil para identificar códigos de emojis.
+### 📊 Collecte de Données
+- Informations publiques de l'entreprise
+- Structure organisationnelle
+- Présence numérique
+- Infrastructure technique
+</div>
 
----
+<div class="objective-item">
 
-**Nota:** Os passos anteriores ativam os caractéres e sequências de emoji do Padrão Unicode no Hugo, porém a renderização desses glifos depende do navegador e plataforma utilizada. Para escolher o estilo dos emojis você pode tanto usar um font de emoji de terceiros ou uma lista de fontes. Por exemplo:
+### 🔎 Analyse
+- Évaluation des données collectées
+- Identification des relations clés
+- Cartographie de l'organisation
+- Validation des informations
+</div>
 
-{{< highlight html >}}
-.emoji {
-font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
+<div class="objective-item">
 
-{{< css.inline >}}
+### 📈 Visualisation
+- Création d'organigrammes
+- Utilisation d'OsintTracker
+- Représentation des relations
+- Documentation structurée
+</div>
+
+<div class="objective-item">
+
+### 🛡️ Éthique et Légalité
+- Respect des lois internationales
+- Protection des données personnelles
+- Vérification des sources
+- Documentation des méthodes
+</div>
+</div>
+
+# 🛠️ Outils et Méthodes
+
+- **OsintTracker** : Visualisation des relations
+- **Google Dorks** : Recherche avancée
+- **LinkedIn** : Analyse professionnelle
+
+
+# 🎓 Compétences Développées
+
+- Maîtrise des techniques de recherche OSINT
+- Utilisation d'outils spécialisés
+- Analyse et synthèse de données
+- Respect des cadres légaux et éthiques
+- Visualisation de données complexes
+
+</div>
 
 <style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
+.project-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
+
+.objectives-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.objective-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.objective-item h3 {
+    margin-top: 0;
+    color: var(--content-link-color);
+}
+
+h1 {
+    border-bottom: 2px solid var(--content-link-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 </style>
-
-{{< /css.inline >}} -->
-
-Dans le cadre de ce projet réalisé au sein de la GCS, nous étions chargés de récolter un maximum d'information à propos d'une entreprise de notre choix.
-Plus précisément 

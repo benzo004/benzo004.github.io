@@ -1,32 +1,108 @@
 +++
 title = "About me"
-description = "Description"
+description = "Cybersecurity Student & OSINT Specialist"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Andrii"
 +++
 
-<!-- Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+<div class="about-section">
 
-Hugo makes use of a variety of open source projects including:
+# 👨‍🎓 Présentation
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Étudiant en première année à la **[Guardia Cybersecurity School](https://www.linkedin.com/school/guardia-cybersecurity-school/posts/?feedView=all)** et membre de la **[Guardia Recon Unit](https://www.linkedin.com/company/guardia-recon-unit/posts/?feedView=all)**, je me forge une expertise solide en cybersécurité, déterminé à maîtriser les enjeux du domaine et à relever les défis les plus complexes.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+# 🎯 Domaines d'Intérêt
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Mes domaines d'intérêt couvrent plusieurs aspects stratégiques :
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+<div class="expertise-grid">
+<div class="expertise-item">
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio). -->
+### 🛡️ Red Teaming
+Simulation d'attaques pour tester la résilience des systèmes
+</div>
 
-Freshman student at Guardia Cybersecurity School and a Member of Guardia Recon Unit.
-Red team and OSINT enthusiast.
+<div class="expertise-item">
 
-Discover my personal and school projects in this portfolio! 
+### 🔍 OSINT
+Collecte et analyse d'informations en source ouverte, avec un profond respect des lois internationales, des règles de </br>cybersécurité et de l'éthique
+</div>
 
-If you have any questions or proposals → feel free to contact me!
+<div class="expertise-item">
+
+### 🌐 Network Security
+Protection et optimisation des </br>infrastructures réseau
+</div>
+
+<div class="expertise-item">
+
+### 🤖 Intelligence Artificielle
+Applications de l'IA en cybersécurité,
+Automatisation des tâches
+</div>
+</div>
+
+# 🏆 Certifications
+
+<div class="certifications">
+
+- **THM Networking Nerd** 🛜
+  - *Completing the 'Network Fundamentals' module*
+- **THM Pentesting Principles** 👻
+  - *Completing the 'Introduction to Pentesting' module*
+- **THM cat linux.txt** 🐧
+  - *Being competent in Linux*
+- **MOOC ANSSI** ✅
+
+</div>
+
+# 📫 Contact
+
+En évoluant dans le domaine de l'OSINT, la sécurité de mes données est **primordiale**. Par conséquent, je privilégie le partage de mon CV en privé, afin de garder le contrôle total sur mes informations.
+
+Si vous souhaitez en découvrir plus sur mon parcours ou discuter d'opportunités professionnelles, retrouvez-moi sur [LinkedIn](https://www.linkedin.com/in/andriiz/) et contactez-moi directement.</div>
+
+<style>
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.expertise-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-item h3 {
+    margin-top: 0;
+    color: var(--content-link-color);
+}
+
+.certifications {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.certifications li {
+    margin-bottom: 15px;
+}
+
+h1 {
+    border-bottom: 2px solid var(--content-link-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+</style>

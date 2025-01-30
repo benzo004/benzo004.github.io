@@ -8,15 +8,20 @@ defaultcontentlanguage = "en"
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.goldmark.extensions]
+typographer = false
 
 [params]
   author = "Andrii"
@@ -36,6 +41,7 @@ unsafe = true
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
+  # Remove custom CSS configuration as we'll use the theme's built-in styling
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
@@ -69,7 +75,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[menu.main]]
   name = "Projects"
   weight = 1
-  url  = "posts/"
+  identifier = "posts"
+  url = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
