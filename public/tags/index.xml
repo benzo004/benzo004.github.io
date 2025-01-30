@@ -37,6 +37,13 @@
       <description></description>
     </item>
     <item>
+      <title>GUI</title>
+      <link>http://localhost:1313/tags/gui/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gui/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Pandas</title>
       <link>http://localhost:1313/tags/pandas/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
@@ -51,17 +58,38 @@
       <description></description>
     </item>
     <item>
-      <title>Ethic</title>
-      <link>http://localhost:1313/tags/ethic/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ethic/</guid>
+      <title>Sécurité</title>
+      <link>http://localhost:1313/tags/s%C3%A9curit%C3%A9/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/s%C3%A9curit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analyse</title>
+      <link>http://localhost:1313/tags/analyse/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/analyse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersécurité</title>
+      <link>http://localhost:1313/tags/cybers%C3%A9curit%C3%A9/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cybers%C3%A9curit%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>OSINT</title>
       <link>http://localhost:1313/tags/osint/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/osint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recherche</title>
+      <link>http://localhost:1313/tags/recherche/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/recherche/</guid>
       <description></description>
     </item>
     <item>

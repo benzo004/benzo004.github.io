@@ -3,7 +3,7 @@ title = "Portfolio"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
+publishDir = "docs"
 
 [pagination]
 pagerSize = 20

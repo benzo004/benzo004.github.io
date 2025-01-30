@@ -20,10 +20,13 @@
     <loc>http://localhost:1313/tags/school/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/csv/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/algo/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/csv/</loc>
+    <loc>http://localhost:1313/tags/gui/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/pandas/</loc>
@@ -32,14 +35,23 @@
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ethic/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/s%C3%A9curit%C3%A9/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/recherche_information/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/analyse/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cybers%C3%A9curit%C3%A9/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/osint/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/recherche_information/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/recherche/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
@@ -53,7 +65,7 @@
     <loc>http://localhost:1313/tags/sql/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-coder-wiki/</loc>
+    <loc>http://localhost:1313/posts/test_intrusion/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>

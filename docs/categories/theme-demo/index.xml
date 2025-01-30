@@ -1,114 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theme Demo on Portfolio</title><link>https://benzo004.github.io/categories/theme-demo/</link><description>Recent content in Theme Demo on Portfolio</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://benzo004.github.io/categories/theme-demo/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://benzo004.github.io/posts-copy/markdown-syntax/</link><pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>Rich Content</title><link>https://benzo004.github.io/posts-copy/rich-content/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/rich-content/</guid><description>&lt;p>Hugo ships with several &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes" class="external-link" target="_blank" rel="noopener">Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a href="https://gohugo.io/about/hugo-and-gdpr/" class="external-link" target="_blank" rel="noopener">Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p>
-&lt;h2 id="heading">
- 
- &lt;a class="heading-link" href="#heading">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2></description></item><item><title>More Rich Content</title><link>https://benzo004.github.io/posts-copy/more-rich-content/</link><pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/more-rich-content/</guid><description>&lt;p>Hugo Coder provides some Custom Shortcodes.&lt;/p>
-&lt;h2 id="heading">
- 
- &lt;a class="heading-link" href="#heading">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2></description></item><item><title>Math Typesetting</title><link>https://benzo004.github.io/posts-copy/math-typesetting/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/math-typesetting/</guid><description>&lt;p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p></description></item><item><title>HTML and CSS only tabs</title><link>https://benzo004.github.io/posts-copy/html-and-css-only-tabs/</link><pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/html-and-css-only-tabs/</guid><description>&lt;h2 id="shortcodes">
- Shortcodes
- &lt;a class="heading-link" href="#shortcodes">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>The following content:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#7ee787">tabgroup&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#7ee787">tab&lt;/span> name&lt;span style="color:#ff7b72;font-weight:bold">=&lt;/span>&lt;span style="color:#a5d6ff">&amp;#34;Hello&amp;#34;&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Hello World!
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /&lt;span style="color:#7ee787">tab&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#7ee787">tab&lt;/span> name&lt;span style="color:#ff7b72;font-weight:bold">=&lt;/span>&lt;span style="color:#a5d6ff">&amp;#34;Goodbye&amp;#34;&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Goodbye Everybody!
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /&lt;span style="color:#7ee787">tab&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /&lt;span style="color:#7ee787">tabgroup&lt;/span> &amp;gt;}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Will generate:&lt;/p>
-
-
-
-
-
-&lt;div class="tabs tabs-left">
- 
-
-
-
-
-&lt;style>
- .tabs input#tab-0-0:checked ~ .tab-content-0-0 {
- display: block;
- }
-&lt;/style>
-
-&lt;input type="radio" class="tab-input" name="tab-select-0" id="tab-0-0" checked/>
-&lt;label for="tab-0-0" class="tab-label">Hello&lt;/label>
-&lt;div class="tab-content tab-content-0-0">
- Hello World!
-&lt;/div>
-
-
-
-
-
-
-
-
-&lt;style>
- .tabs input#tab-0-1:checked ~ .tab-content-0-1 {
- display: block;
- }
-&lt;/style>
-
-&lt;input type="radio" class="tab-input" name="tab-select-0" id="tab-0-1" />
-&lt;label for="tab-0-1" class="tab-label">Goodbye&lt;/label>
-&lt;div class="tab-content tab-content-0-1">
- Goodbye Everybody!
-&lt;/div>
-
-
-
-
-&lt;/div>
-
-
-
-&lt;h2 id="right-alignment">
- Right alignment
- &lt;a class="heading-link" href="#right-alignment">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>You can also align the tabs to the right:&lt;/p></description></item><item><title>Mermaid JS support</title><link>https://benzo004.github.io/posts-copy/mermaid-support/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/mermaid-support/</guid><description>&lt;p>If you want to use &lt;a href="https://mermaid-js.github.io/mermaid/#/" class="external-link" target="_blank" rel="noopener">Mermaid-JS&lt;/a> on your website.
-Provide &lt;code>mermaid&lt;/code> as &lt;a href="https://gohugo.io/content-management/shortcodes/#readout" class="external-link" target="_blank" rel="noopener">Shortcode&lt;/a> in your markdown file.&lt;/p>
-&lt;div class="mermaid">
-flowchart LR
-
- A --> B
-
- B --> C
-
- C --> D
-
- D --> B
-
-
-&lt;/div>
-
-&lt;div class="mermaid">
-sequenceDiagram
-participant Alice
-participant Bob
-Alice->>Bob: Hi Bob
-Bob->>Alice: Hi Alice
-
-&lt;/div>
-
-&lt;p>Find more example on &lt;a href="https://mermaid-js.github.io/mermaid/#/" class="external-link" target="_blank" rel="noopener">Mermaid-JS&lt;/a> website.&lt;/p></description></item><item><title>Emoji Support</title><link>https://benzo004.github.io/posts-copy/emoji-support/</link><pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/posts-copy/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme Demo on Portfolio</title>
+    <link>https://benzo004.github.io/categories/theme-demo/</link>
+    <description>Recent content in Theme Demo on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://benzo004.github.io/categories/theme-demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://benzo004.github.io/posts-copy/markdown-syntax/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>https://benzo004.github.io/posts-copy/rich-content/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>More Rich Content</title>
+      <link>https://benzo004.github.io/posts-copy/more-rich-content/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://benzo004.github.io/posts-copy/math-typesetting/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTML and CSS only tabs</title>
+      <link>https://benzo004.github.io/posts-copy/html-and-css-only-tabs/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/html-and-css-only-tabs/</guid>
+      <description>&lt;h2 id=&#34;shortcodes&#34;&gt;&#xD;&#xA;  Shortcodes&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#shortcodes&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The following content:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; name&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Goodbye&amp;#34;&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Goodbye Everybody!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tab&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; /&lt;span style=&#34;color:#7ee787&#34;&gt;tabgroup&lt;/span&gt; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will generate:&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;tabs tabs-left&#34;&gt;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-0&#34; checked/&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-0&#34; class=&#34;tab-label&#34;&gt;Hello&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-0&#34;&gt;&#xD;&#xA;  Hello World!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {&#xD;&#xA;    display: block;&#xD;&#xA;  }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-1&#34; /&gt;&#xD;&#xA;&lt;label for=&#34;tab-0-1&#34; class=&#34;tab-label&#34;&gt;Goodbye&lt;/label&gt;&#xD;&#xA;&lt;div class=&#34;tab-content tab-content-0-1&#34;&gt;&#xD;&#xA;  Goodbye Everybody!&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;h2 id=&#34;right-alignment&#34;&gt;&#xD;&#xA;  Right alignment&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#right-alignment&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;You can also align the tabs to the right:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mermaid JS support</title>
+      <link>https://benzo004.github.io/posts-copy/mermaid-support/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/mermaid-support/</guid>
+      <description>&lt;p&gt;If you want to use &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt; on your website.&#xA;Provide &lt;code&gt;mermaid&lt;/code&gt; as &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#readout&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shortcode&lt;/a&gt; in your markdown file.&lt;/p&gt;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xD;&#xA;flowchart LR&#xD;&#xA;&#xD;&#xA;    A --&gt; B&#xD;&#xA;&#xD;&#xA;    B --&gt; C&#xD;&#xA;&#xD;&#xA;    C --&gt; D&#xD;&#xA;&#xD;&#xA;    D --&gt; B&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xD;&#xA;sequenceDiagram&#xD;&#xA;participant Alice&#xD;&#xA;participant Bob&#xD;&#xA;Alice-&gt;&gt;Bob: Hi Bob&#xD;&#xA;Bob-&gt;&gt;Alice: Hi Alice&#xD;&#xA;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Find more example on &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt; website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://benzo004.github.io/posts-copy/emoji-support/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/posts-copy/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

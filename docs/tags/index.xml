@@ -1,1 +1,194 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Portfolio</title><link>https://benzo004.github.io/tags/</link><description>Recent content in Tags on Portfolio</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://benzo004.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Emoji</title><link>https://benzo004.github.io/tags/emoji/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/emoji/</guid><description/></item><item><title>Hugo</title><link>https://benzo004.github.io/tags/hugo/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/hugo/</guid><description/></item><item><title>Markdown</title><link>https://benzo004.github.io/tags/markdown/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/markdown/</guid><description/></item><item><title>Css</title><link>https://benzo004.github.io/tags/css/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/css/</guid><description/></item><item><title>Html</title><link>https://benzo004.github.io/tags/html/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/html/</guid><description/></item><item><title>Js</title><link>https://benzo004.github.io/tags/js/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/js/</guid><description/></item><item><title>Toml</title><link>https://benzo004.github.io/tags/toml/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/toml/</guid><description/></item><item><title>Yaml</title><link>https://benzo004.github.io/tags/yaml/</link><pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/yaml/</guid><description/></item><item><title>Shortcodes</title><link>https://benzo004.github.io/tags/shortcodes/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/shortcodes/</guid><description/></item><item><title>Text</title><link>https://benzo004.github.io/tags/text/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><guid>https://benzo004.github.io/tags/text/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Portfolio</title>
+    <link>https://benzo004.github.io/tags/</link>
+    <description>Recent content in Tags on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://benzo004.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>https://benzo004.github.io/tags/network/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Réseau</title>
+      <link>https://benzo004.github.io/tags/r%C3%A9seau/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/r%C3%A9seau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>School</title>
+      <link>https://benzo004.github.io/tags/school/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSV</title>
+      <link>https://benzo004.github.io/tags/csv/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/csv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GUI</title>
+      <link>https://benzo004.github.io/tags/gui/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/gui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>https://benzo004.github.io/tags/pandas/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://benzo004.github.io/tags/python/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sécurité</title>
+      <link>https://benzo004.github.io/tags/s%C3%A9curit%C3%A9/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/s%C3%A9curit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analyse</title>
+      <link>https://benzo004.github.io/tags/analyse/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/analyse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersécurité</title>
+      <link>https://benzo004.github.io/tags/cybers%C3%A9curit%C3%A9/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/cybers%C3%A9curit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT</title>
+      <link>https://benzo004.github.io/tags/osint/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/osint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recherche</title>
+      <link>https://benzo004.github.io/tags/recherche/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/recherche/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://benzo004.github.io/tags/linux/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pentest</title>
+      <link>https://benzo004.github.io/tags/pentest/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/pentest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://benzo004.github.io/tags/php/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://benzo004.github.io/tags/sql/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>https://benzo004.github.io/tags/css/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>https://benzo004.github.io/tags/html/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://benzo004.github.io/tags/hugo/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Js</title>
+      <link>https://benzo004.github.io/tags/js/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Toml</title>
+      <link>https://benzo004.github.io/tags/toml/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/toml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yaml</title>
+      <link>https://benzo004.github.io/tags/yaml/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/yaml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://benzo004.github.io/tags/markdown/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>https://benzo004.github.io/tags/shortcodes/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>https://benzo004.github.io/tags/emoji/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/emoji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text</title>
+      <link>https://benzo004.github.io/tags/text/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://benzo004.github.io/tags/text/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
