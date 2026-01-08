@@ -3,6 +3,10 @@ import { useLanguage } from '../../contexts/LanguageContext'
 import projectsData from '@/data/projects.json'
 import ScrollFloat from '../ScrollFloat'
 
+import labNetworkUpdateImg from '@/assets/images/lab-network-update.png'
+import pentestSilverhandImg from '@/assets/images/pentest-silverhand.png'
+import osintIntelligenceUpdateImg from '@/assets/images/osint-intelligence-update.png'
+
 interface Project {
     id: string;
     title: {
@@ -17,6 +21,18 @@ interface Project {
     tags: string[];
     link: string;
     image?: string;
+}
+
+function resolveProjectImage(project: Project): string | undefined {
+    if (!project.image) return undefined
+
+    const lower = project.image.toLowerCase()
+
+    if (lower.includes('lab-network-update.png')) return labNetworkUpdateImg
+    if (lower.includes('pentest-silverhand.png')) return pentestSilverhandImg
+    if (lower.includes('osint-intelligence-update.png')) return osintIntelligenceUpdateImg
+
+    return undefined
 }
 
 export default function ProjectsSection() {
@@ -44,7 +60,7 @@ export default function ProjectsSection() {
                         {project.image && (
                             <div className="lg:w-1/3 h-64 lg:h-auto overflow-hidden rounded-subtle bg-gray-100 flex-shrink-0">
                                 <img
-                                    src={project.image}
+                                    src={resolveProjectImage(project) ?? project.image}
                                     alt={project.title[language as 'fr' | 'en']}
                                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                                 />
