@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "name": {
+                "fr": "Sécurité & Réseau",
+                "en": "Security & Network"
+            },
+            "tools": [
+                {
+                    "name": "Firewalling (Stormshield, pfSense)",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Networking (Cisco, CCNA)",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "Cisco Packet Tracer",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Active Directory (Samba AD)",
+                    "level": "advanced"
+                }
+            ]
+        },
+        {
+            "name": {
+                "fr": "Offensive & OSINT",
+                "en": "Offensive & OSINT"
+            },
+            "tools": [
+                {
+                    "name": "OSINT Stratégique",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Web Pentest (SQLi, PHP)",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "Privilege Escalation",
+                    "level": "intermediate"
+                }
+            ]
+        },
+        {
+            "name": {
+                "fr": "Développement & Automatisation",
+                "en": "Development & Automation"
+            },
+            "tools": [
+                {
+                    "name": "Python (Scripts & Automation)",
+                    "level": "advanced"
+                },
+                {
+                    "name": "React / Tailwind",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "Integrations IA (LLMs)",
+                    "level": "advanced"
+                }
+            ]
+        }
+    ]
+}

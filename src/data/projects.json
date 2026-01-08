@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "id": "proj-lab-infra",
+            "title": {
+                "fr": "Infrastructure Lab GNS3 / pfSense & Stormshield",
+                "en": "GNS3 pfSense & Stormshield Infrastructure Lab"
+            },
+            "type": "Network Security",
+            "type": "Network Security",
+            "image": "/src/assets/images/lab-network-update.png",
+            "description": {
+                "fr": "Conception d'une topologie réseau hybride hautement sécurisée.\n\nCe lab intègre un firewall Stormshield/pfSense en frontal d'une DMZ hébergeant un reverse proxy Squid. L'infrastructure interne repose sur un Ubuntu Server configuré en Active Directory (Samba AD DC), gérant Kerberos, DNS et DHCP.\n\nUn script bash semi-automatique a été développé pour automatiser le déploiement de cette infrastructure. La sécurité est renforcée par du VLANing et du DHCP Snooping.",
+                "en": "Design of a highly secure hybrid network topology.\n\nThis lab integrates a Stormshield/pfSense firewall in front of a DMZ hosting a Squid reverse proxy. The internal infrastructure relies on an Ubuntu Server configured as an Active Directory (Samba AD DC), managing Kerberos, DNS, and DHCP.\n\nA semi-automatic bash script was developed to automate the deployment of this infrastructure. Security is reinforced by VLANing and DHCP Snooping."
+            },
+            "tags": [
+                "pfSense",
+                "Stormshield",
+                "GNS3",
+                "Samba AD",
+                "Squid"
+            ],
+            "link": "#"
+        },
+        {
+            "id": "proj-pentest-lab",
+            "title": {
+                "fr": "Lab Pentest 'Silverhand'",
+                "en": "Pentest Lab 'Silverhand'"
+            },
+            "type": "Offensive Security",
+            "image": "/src/assets/images/pentest-silverhand.png",
+            "description": {
+                "fr": "Simulation d'une attaque complète sur une machine cible vulnérable.\n\nLe scénario commence par l'exploitation d'une injection SQL permettant le téléversement d'un payload PHP pour obtenir un reverse shell.\n\nS'en suit une phase d'énumération post-exploitation approfondie avec Linpeas, menant à l'exploitation d'une CVE critique permettant l'élévation de privilèges root et la compromission totale du serveur web.",
+                "en": "Simulation of a complete attack on a vulnerable target machine.\n\nThe scenario begins with the exploitation of a SQL injection allowing the upload of a PHP payload to obtain a reverse shell.\n\nThis is followed by an in-depth post-exploitation enumeration phase with Linpeas, leading to the exploitation of a critical CVE allowing root privilege escalation and total compromise of the web server."
+            },
+            "tags": [
+                "SQL Injection",
+                "Reverse Shell",
+                "Linpeas",
+                "CVE Exploitation",
+                "PrivEsc"
+            ],
+            "link": "#"
+        },
+        {
+            "id": "proj-osint-res",
+            "title": {
+                "fr": "Recherche OSINT Ciblée",
+                "en": "Targeted OSINT Research"
+            },
+            "type": "Intelligence",
+            "image": "/src/assets/images/osint-intelligence-update.png",
+            "description": {
+                "fr": "Recherche d'informations personnelles sur un membre du COMEX (avec son accord explicite).\n\nUtilisation d'outils tels que Maltego et OSINT Tracker pour schématiser la recherche et établir des liens de relation entre les données identifiées.\n\nLe reste de la mission demeure strictement confidentiel.",
+                "en": "Collection of personal information on a COMEX member (with explicit consent).\n\nUse of tools such as Maltego and OSINT Tracker to map the research and establish relationship links between identified data points.\n\nThe rest of the mission remains strictly confidential."
+            },
+            "tags": [
+                "Maltego",
+                "OSINT Tracker",
+                "OSINT",
+                "Confidential"
+            ],
+            "link": "#"
+        }
+    ]
+}

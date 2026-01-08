@@ -1,0 +1,40 @@
+{
+    "certifications": [
+        {
+            "id": "cert-1",
+            "name": "CSNA (Stormshield Network Administrator)",
+            "issuer": "Stormshield",
+            "date": {
+                "fr": "Janvier 2026",
+                "en": "January 2026"
+            },
+            "status": "in-progress",
+            "verifyUrl": "#",
+            "credentialId": "CSNA-2026-0001"
+        },
+        {
+            "id": "cert-2",
+            "name": "Google Cybersecurity Professional",
+            "issuer": "Google",
+            "date": {
+                "fr": "Mars 2026",
+                "en": "March 2026"
+            },
+            "status": "in-progress",
+            "verifyUrl": "#",
+            "credentialId": "GOOGLE-CYBER-P"
+        },
+        {
+            "id": "cert-3",
+            "name": "CCNA: Introduction to Networks",
+            "issuer": "Cisco",
+            "date": {
+                "fr": "Mars 2026",
+                "en": "March 2026"
+            },
+            "status": "in-progress",
+            "verifyUrl": "#",
+            "credentialId": "CISCO-CCNA-ITN"
+        }
+    ]
+}

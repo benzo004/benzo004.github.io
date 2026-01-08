@@ -1,0 +1,20 @@
+{
+    "platforms": [
+        {
+            "name": "TryHackMe",
+            "username": "benzo004",
+            "profileUrl": "https://tryhackme.com/p/benzo004",
+            "rank": "Coming Soon",
+            "points": "In Progress",
+            "progress": 45
+        },
+        {
+            "name": "HackTheBox",
+            "username": "benzo004",
+            "profileUrl": "https://app.hackthebox.com/users/benzo004",
+            "rank": "Coming Soon",
+            "points": "In Progress",
+            "progress": 30
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+.shiny-text {
+  color: #b5b5b5;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: shine 5s linear infinite;
+  display: inline-block;
+}
+
+.shiny-text.disabled {
+  animation: none;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: -100% 0;
+  }
+}

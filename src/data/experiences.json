@@ -1,0 +1,178 @@
+{
+    "experiences": [
+        {
+            "id": "exp-boxe",
+            "company": "Indépendant",
+            "position": {
+                "fr": "Coach de Boxe",
+                "en": "Boxing Coach"
+            },
+            "period": "Mars 2023 - Présent",
+            "category": "Autre",
+            "description": {
+                "fr": "Encadrement de groupes et coaching individuel haut de gamme.\nFocus sur la sécurité, la performance et le dépassement de soi.",
+                "en": "Group management and high-end individual coaching.\nFocus on safety, performance and self-improvement."
+            },
+            "tags": [
+                "Coaching",
+                "Leadership",
+                "Safety"
+            ]
+        },
+        {
+            "id": "exp-paris-society",
+            "company": "Paris Society Clubs",
+            "companyUrl": "https://www.instagram.com/paris_society_clubs/",
+            "position": {
+                "fr": "Extra événementiel (Commis, Barman, Chef de rang)",
+                "en": "Event Staff (Commis, Bartender, Head Waiter)"
+            },
+            "period": "Nov 2025 - Présent",
+            "category": "Autre",
+            "description": {
+                "fr": "Missions ponctuelles dans des lieux d'exception.\nPolyvalence et excellence opérationnelle pour une clientèle exigeante.",
+                "en": "Occasional assignments in exceptional venues.\nVersatility and operational excellence for a demanding clientele."
+            },
+            "tags": [
+                "Luxe",
+                "Service",
+                "Polyvalence"
+            ]
+        },
+        {
+            "id": "exp-consil",
+            "company": "Consil AI SARL",
+            "companyUrl": "https://www.linkedin.com/company/107763502/",
+            "position": {
+                "fr": "Co-gérant & Fondateur",
+                "en": "Co-founder & CEO"
+            },
+            "period": "Juin 2025 - Janv 2026",
+            "category": "Cybersécurité",
+            "description": {
+                "fr": "Fondation d'une agence d’automatisation IA.\nConception d’écosystèmes sur‑mesure (réceptionnistes virtuels, standard intelligent) pour le secteur immobilier.",
+                "en": "Founded an AI automation agency.\nDesign of custom ecosystems (virtual receptionists, intelligent switchboards) for the real estate sector."
+            },
+            "tags": [
+                "Entrepreneur",
+                "IA Automation",
+                "Product Management"
+            ]
+        },
+        {
+            "id": "exp-it",
+            "company": "Indépendant",
+            "position": {
+                "fr": "Assistant IT - Automatisation & Dashboard",
+                "en": "IT Assistant - Automation & Dashboard"
+            },
+            "period": "Mai 2025 - Présent",
+            "category": "Cybersécurité",
+            "description": {
+                "fr": "Développement de scripts Python et d'automatisations IA pour cadres indépendants.\nCréation de dashboards sur mesure pour l'optimisation de productivité.",
+                "en": "Development of Python scripts and AI automations for independent executives.\nCreation of custom dashboards for productivity optimization."
+            },
+            "tags": [
+                "Python",
+                "AI",
+                "Automation"
+            ]
+        },
+        {
+            "id": "exp-cyber-1",
+            "company": "Jégard Créatis Paris",
+            "companyUrl": "https://www.linkedin.com/company/jegard-creatis-paris/",
+            "position": {
+                "fr": "Support IT & Assistant Admin Système",
+                "en": "IT Support & Assistant System Admin"
+            },
+            "period": "Mai 2025 - Juillet 2025",
+            "category": "Cybersécurité",
+            "description": {
+                "fr": "Support IT (hardware/software) et cybersécurité.\nGestion MFA, réponse en temps réel aux attaques phishing et développement de sites vitrines.",
+                "en": "IT support (hardware/software) and cybersecurity.\nMFA management, real-time response to phishing attacks and development of showcase websites."
+            },
+            "tags": [
+                "Phishing Response",
+                "MFA",
+                "SysAdmin"
+            ]
+        },
+        {
+            "id": "exp-cyber-2",
+            "company": "OVAC",
+            "companyUrl": "https://www.linkedin.com/company/ova-c/",
+            "position": {
+                "fr": "Membre",
+                "en": "Member"
+            },
+            "period": "Nov 2024 - Présent",
+            "category": "Cybersécurité",
+            "description": {
+                "fr": "Veille stratégique et analyse technique ciblée au sein de l'Organisation de Veille et d'Analyse Ciblée.",
+                "en": "Strategic intelligence and targeted technical analysis within the Targeted Intelligence and Analysis Organization."
+            },
+            "tags": [
+                "OSINT",
+                "Threat Intel",
+                "Veille"
+            ]
+        },
+        {
+            "id": "exp-pizza",
+            "company": "Restaurant italien",
+            "position": {
+                "fr": "Serveur Polyvalent",
+                "en": "Versatile Waiter"
+            },
+            "period": "Juin 2024 - Juin 2025",
+            "category": "Autre",
+            "description": {
+                "fr": "Service client et travail en équipe en environnement dynamique.\nAdaptabilité forte et gestion des flux de clientèle.",
+                "en": "Customer service and teamwork in a dynamic environment.\nStrong adaptability and management of customer flow."
+            },
+            "tags": [
+                "Soft Skills",
+                "Teamwork",
+                "Adaptability"
+            ]
+        },
+        {
+            "id": "exp-montre",
+            "company": "Indépendant",
+            "position": {
+                "fr": "Entrepreneur - Horlogerie Custom",
+                "en": "Entrepreneur - Custom Watchmaking"
+            },
+            "period": "Mai 2023 - Mars 2024",
+            "category": "Autre",
+            "description": {
+                "fr": "Montage de montres à partir de pièces détachées.\nVente directe via e-commerce & réseaux sociaux.",
+                "en": "Assembly of watches from spare parts.\nDirect sales via e-commerce & social networks."
+            },
+            "tags": [
+                "Précision",
+                "E-commerce",
+                "Artisanat"
+            ]
+        },
+        {
+            "id": "exp-molly",
+            "company": "Salon de thé",
+            "position": {
+                "fr": "Serveur Polyvalent",
+                "en": "Versatile Waiter"
+            },
+            "period": "Sept 2022 - Janv 2023",
+            "category": "Autre",
+            "description": {
+                "fr": "Expérience en environnement exigeant (Château de Versailles).\nDéveloppement du sens du service et gestion du stress.",
+                "en": "Experience in a demanding environment (Château de Versailles).\nDevelopment of customer service skills and stress management."
+            },
+            "tags": [
+                "Stress Management",
+                "Service Client"
+            ]
+        }
+    ]
+}

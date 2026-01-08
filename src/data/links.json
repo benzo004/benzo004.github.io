@@ -1,0 +1,28 @@
+{
+    "links": [
+        {
+            "id": "social-1",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/andriiz/",
+            "icon": "linkedin"
+        },
+        {
+            "id": "social-2",
+            "name": "GitHub",
+            "url": "https://github.com/benzo004",
+            "icon": "github"
+        },
+        {
+            "id": "social-htb",
+            "name": "HackTheBox",
+            "url": "https://app.hackthebox.com/profile/1337456",
+            "icon": "hackthebox"
+        },
+        {
+            "id": "social-thm",
+            "name": "TryHackMe",
+            "url": "https://tryhackme.com/p/andriiz",
+            "icon": "tryhackme"
+        }
+    ]
+}
