@@ -76,6 +76,12 @@ function formatPeriod(period: string, language: 'fr' | 'en'): string {
     return replacements.reduce((acc, [re, val]) => acc.replace(re, val), period)
 }
 
+function formatCompany(company: string, language: 'fr' | 'en'): string {
+    if (language !== 'en') return company
+    if (company === 'Indépendant') return 'Freelance'
+    return company
+}
+
 export default function ExperiencesSection() {
     const { language, t } = useLanguage()
     // We'll use internal keys for state but display translated versions
@@ -170,7 +176,7 @@ export default function ExperiencesSection() {
                                             {exp.companyUrl.includes('instagram.com') ? <InstagramIcon /> : <LinkedInIcon />}
                                         </a>
                                     ) : (
-                                        exp.company
+                                        formatCompany(exp.company, language)
                                     )}
                                 </h3>
                                 <p className="text-lg text-secondary/80 mb-4 font-serif italic group-hover:text-accent/80 transition-colors duration-400">
