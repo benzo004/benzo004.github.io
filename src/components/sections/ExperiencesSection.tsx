@@ -46,6 +46,36 @@ const fadeInUp = {
     })
 }
 
+function formatPeriod(period: string, language: 'fr' | 'en'): string {
+    if (language !== 'en') return period
+
+    const replacements: Array<[RegExp, string]> = [
+        [/\bPrésent\b/gi, 'Present'],
+        [/\bJanv\b\.?/gi, 'Jan'],
+        [/\bJanvier\b/gi, 'January'],
+        [/\bFévr\b\.?/gi, 'Feb'],
+        [/\bFévrier\b/gi, 'February'],
+        [/\bMars\b/gi, 'March'],
+        [/\bAvr\b\.?/gi, 'Apr'],
+        [/\bAvril\b/gi, 'April'],
+        [/\bMai\b/gi, 'May'],
+        [/\bJuin\b/gi, 'June'],
+        [/\bJuil\b\.?/gi, 'Jul'],
+        [/\bJuillet\b/gi, 'July'],
+        [/\bAoût\b/gi, 'August'],
+        [/\bSept\b\.?/gi, 'Sep'],
+        [/\bSeptembre\b/gi, 'September'],
+        [/\bOct\b\.?/gi, 'Oct'],
+        [/\bOctobre\b/gi, 'October'],
+        [/\bNov\b\.?/gi, 'Nov'],
+        [/\bNovembre\b/gi, 'November'],
+        [/\bDéc\b\.?/gi, 'Dec'],
+        [/\bDécembre\b/gi, 'December'],
+    ]
+
+    return replacements.reduce((acc, [re, val]) => acc.replace(re, val), period)
+}
+
 export default function ExperiencesSection() {
     const { language, t } = useLanguage()
     // We'll use internal keys for state but display translated versions
@@ -123,7 +153,7 @@ export default function ExperiencesSection() {
 
                             {/* Date - gauche */}
                             <div className="pl-8 md:pl-0 md:pr-8 text-secondary font-medium md:text-right mt-1.5 whitespace-nowrap">
-                                {exp.period}
+                                {formatPeriod(exp.period, language)}
                             </div>
 
                             {/* Contenu - droite */}
