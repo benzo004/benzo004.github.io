@@ -11,15 +11,27 @@
                     "level": "advanced"
                 },
                 {
-                    "name": "Networking (Cisco, CCNA)",
+                    "name": "Networking (VLANing, protocoles & ports fondamentaux)",
                     "level": "intermediate"
                 },
                 {
-                    "name": "Cisco Packet Tracer",
+                    "name": "Cisco Packet Tracer (Routage dynamique, OSPF, STP, HSRP/VRRP, DHCP Snooping)",
                     "level": "advanced"
                 },
                 {
                     "name": "Active Directory (Samba AD)",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Wireshark (Fondamentaux)",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "Ubuntu Server (DHCP, DNSsec)",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Virtualisation, Conteneurisation (vmware, docker)",
                     "level": "advanced"
                 }
             ]
@@ -41,6 +53,14 @@
                 {
                     "name": "Privilege Escalation",
                     "level": "intermediate"
+                },
+                {
+                    "name": "Énumération de vulnérabilités",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "Reconnaissance réseau (nmap)",
+                    "level": "advanced"
                 }
             ]
         },
@@ -61,6 +81,14 @@
                 {
                     "name": "Integrations IA (LLMs)",
                     "level": "advanced"
+                },
+                {
+                    "name": "Automatisations n8n",
+                    "level": "intermediate"
+                },
+                {
+                    "name": "FastAPI",
+                    "level": "intermediate"
                 }
             ]
         }

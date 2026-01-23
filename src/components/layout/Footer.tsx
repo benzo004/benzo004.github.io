@@ -76,16 +76,14 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
                                         sequential={true}
                                         speed={s1}
                                     />{' '}
-                                    <a href={`mailto:${email}`} className="underline underline-offset-4 inline-block">
-                                        <DecryptedText
-                                            key={`p2-${language}`}
-                                            text={p2}
-                                            isTriggered={isInView}
-                                            sequential={true}
-                                            speed={s2}
-                                            delay={delay2}
-                                        />
-                                    </a>{' '}
+                                    <DecryptedText
+                                        key={`p2-${language}`}
+                                        text={p2}
+                                        isTriggered={isInView}
+                                        sequential={true}
+                                        speed={s2}
+                                        delay={delay2}
+                                    />{' '}
                                     <DecryptedText
                                         key={`p3-${language}`}
                                         text={p3}

@@ -114,7 +114,6 @@ export default function PortfolioPage() {
                         <CertificationsSection />
                         <EducationSection />
                         <ToolboxSection />
-                        {/* <AboutSection /> */}
                         <Footer onBackToTop={handleLock} />
                     </motion.main>
                 )}
