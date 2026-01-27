@@ -345,7 +345,7 @@ const ScrollStack: React.FC<ScrollStackProps> = ({
         willChange: 'scroll-position'
       }}
     >
-      <div className="scroll-stack-inner pt-[12vh] px-4 md:px-20 pb-[10vh] min-h-screen">
+      <div className="scroll-stack-inner pt-[12vh] px-4 md:px-20 pb-[40vh] min-h-screen">
         {header && (
           <div className="w-full mb-12 flex justify-center sticky top-0 z-[50]">
             {header}

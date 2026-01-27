@@ -125,7 +125,7 @@ export default function ProgressNav({
             {/* Vertical Progress Navigation - Dots/Labels */}
             {showNav && (
                 <nav
-                    className={`fixed left-8 top-0 bottom-0 z-40 hidden lg:flex flex-col justify-center w-48 pointer-events-none ${fadeClass}`}
+                    className={`fixed left-8 top-0 bottom-0 z-40 hidden min-[1401px]:flex flex-col justify-center w-48 pointer-events-none ${fadeClass}`}
                     style={{ opacity: hidden ? 0 : navOpacity }}
                 >
 

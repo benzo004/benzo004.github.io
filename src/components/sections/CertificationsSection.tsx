@@ -19,11 +19,11 @@ export default function CertificationsSection() {
     const { t, language } = useLanguage()
 
     return (
-        <section id="certifications" className="section-spacing border-b border-gray-200">
+        <section id="certifications" className="section-spacing border-t border-b border-border bg-background relative z-10">
             <div className="container-minimal">
                 {/* Section title */}
                 <ScrollFloat
-                    containerClassName="text-section mb-20"
+                    containerClassName="text-section mt-24 mb-20 md:mt-0"
                 >
                     {t('certifications.header')}
                 </ScrollFloat>

@@ -39,7 +39,7 @@ export default function ProjectsSection() {
     const { language, t } = useLanguage()
 
     return (
-        <section id="projects" className="border-b border-border bg-background">
+        <section id="projects" className="bg-background">
             <ScrollStack
                 stackPosition="12vh"
                 itemScale={0.05}
