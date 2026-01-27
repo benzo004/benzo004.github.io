@@ -5,10 +5,10 @@
             "name": "CSNA (Stormshield Network Administrator)",
             "issuer": "Stormshield",
             "date": {
-                "fr": "Février 2026",
-                "en": "February 2026"
+                "fr": "Janvier 2026",
+                "en": "January 2026"
             },
-            "status": "in-progress",
+            "status": "completed",
             "verifyUrl": "#",
             "credentialId": "CSNA-2026-0001"
         },

@@ -68,7 +68,7 @@ export default function CertificationsSection() {
 
                                 <div className="flex items-center gap-4 mt-3">
                                     <span className={`text-xs px-3 py-1 rounded-full font-medium ${cert.status === 'completed'
-                                        ? 'bg-accent/10 text-accent'
+                                        ? 'bg-green-100 text-green-600 border border-green-200'
                                         : 'bg-orange-100 text-orange-600 border border-orange-200'
                                         }`}>
                                         {cert.status === 'completed' ? t('certifications.completed') : t('certifications.inProgress')}
