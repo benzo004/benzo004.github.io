@@ -12,8 +12,13 @@
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    zoom: 0.9;
     position: relative;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      zoom: 0.9;
+    }
   }
 
   /* Grain Texture Overlay */
@@ -117,8 +122,15 @@
     max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-minimal {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 
   @media (min-width: 768px) {
@@ -136,8 +148,15 @@
   }
 
   .section-spacing {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: 640px) {
+    .section-spacing {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
   }
 
   @media (min-width: 768px) {
@@ -157,14 +176,28 @@
   /* Text utilities */
   .text-section {
     font-family: 'Clash Display', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color: #0A0A0A;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -0.02em;
+  }
+
+  @media (min-width: 640px) {
+    .text-section {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .text-section {
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
   }
 
   .text-body {

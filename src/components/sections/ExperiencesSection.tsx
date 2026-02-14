@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useLanguage } from '../../contexts/LanguageContext'
 import experiencesData from '@/data/experiences.json'
-import ScrollFloat from '../ScrollFloat'
+import SectionTitle from '../SectionTitle'
 
 interface Experience {
     id: string;
@@ -109,19 +109,17 @@ export default function ExperiencesSection() {
         <section id="experiences" className="section-spacing border-b border-gray-200">
             <div className="container-minimal">
                 {/* Section title */}
-                <ScrollFloat
-                    containerClassName="text-section mb-20"
-                >
+                <SectionTitle className="mb-12 sm:mb-16 md:mb-20">
                     {t('section.experiences')}
-                </ScrollFloat>
+                </SectionTitle>
 
                 {/* Filter tabs */}
-                <div className="flex gap-4 mb-16 border-b border-gray-200">
+                <div className="flex gap-2 sm:gap-4 mb-12 sm:mb-16 border-b border-gray-200 overflow-x-auto">
                     {internalFilters.map((filterKey) => (
                         <button
                             key={filterKey}
                             onClick={() => setActiveFilter(filterKey)}
-                            className={`px-6 py-2 text-sm font-medium transition-all duration-400 border-b-2 ${activeFilter === filterKey
+                            className={`px-4 sm:px-6 py-2 text-xs sm:text-sm font-medium transition-all duration-400 border-b-2 whitespace-nowrap ${activeFilter === filterKey
                                 ? 'border-accent text-accent'
                                 : 'border-transparent text-secondary hover:text-primary'
                                 }`}
@@ -132,7 +130,7 @@ export default function ExperiencesSection() {
                 </div>
 
                 {/* Timeline verticale - Style Oura Biometrics */}
-                <div className="relative space-y-16 md:space-y-24">
+                <div className="relative space-y-12 sm:space-y-16 md:space-y-24">
                     {/* Vertical line through dots */}
                     <div className="absolute left-[7px] md:left-[247px] top-2 bottom-2 w-px bg-secondary/10" />
 
@@ -144,7 +142,7 @@ export default function ExperiencesSection() {
                             initial="hidden"
                             animate="visible"
                             viewport={{ once: true, margin: "-100px" }}
-                            className="relative grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 group"
+                            className="relative grid md:grid-cols-[240px_1fr] gap-4 sm:gap-8 md:gap-16 group"
                         >
                             {/* Timeline marker/dot - Perfectly aligned with the baseline of the first line header */}
                             <div className="absolute left-0 md:left-[240px] top-3 flex items-center justify-center w-[15px] h-[15px] bg-background border border-accent rounded-full z-10 transition-transform duration-500 group-hover:scale-125">
@@ -158,19 +156,19 @@ export default function ExperiencesSection() {
                             </div>
 
                             {/* Date - gauche */}
-                            <div className="pl-8 md:pl-0 md:pr-8 text-secondary font-medium md:text-right mt-1.5 whitespace-nowrap">
+                            <div className="pl-8 md:pl-0 md:pr-8 text-sm sm:text-base text-secondary font-medium md:text-right mt-1.5 whitespace-nowrap">
                                 {formatPeriod(exp.period, language)}
                             </div>
 
                             {/* Contenu - droite */}
                             <div className="pl-8 md:pl-0">
-                                <h3 className="text-2xl font-clash font-semibold text-primary mb-2 transition-colors duration-400 group-hover:text-accent">
+                                <h3 className="text-xl sm:text-2xl font-clash font-semibold text-primary mb-2 transition-colors duration-400 group-hover:text-accent">
                                     {exp.companyUrl ? (
                                         <a
                                             href={exp.companyUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="transition-colors flex items-center gap-1"
+                                            className="transition-colors flex items-center gap-1 flex-wrap"
                                         >
                                             {exp.company}
                                             {exp.companyUrl.includes('instagram.com') ? <InstagramIcon /> : <LinkedInIcon />}
@@ -179,10 +177,10 @@ export default function ExperiencesSection() {
                                         formatCompany(exp.company, language)
                                     )}
                                 </h3>
-                                <p className="text-lg text-secondary/80 mb-4 font-serif italic group-hover:text-accent/80 transition-colors duration-400">
+                                <p className="text-base sm:text-lg text-secondary/80 mb-3 sm:mb-4 font-serif italic group-hover:text-accent/80 transition-colors duration-400">
                                     {exp.position[language as 'fr' | 'en']}
                                 </p>
-                                <p className="text-secondary leading-relaxed mb-6 max-w-2xl whitespace-pre-line text-justify md:text-left">
+                                <p className="text-sm sm:text-base text-secondary leading-relaxed mb-4 sm:mb-6 max-w-2xl whitespace-pre-line text-left">
                                     {exp.description[language as 'fr' | 'en']}
                                 </p>
 

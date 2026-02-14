@@ -91,7 +91,7 @@ export default function ProgressNav({
 
             {/* Bottom Left Static Area: Language Switcher (always visible) */}
             <div
-                className={`fixed bottom-8 left-10 flex flex-col items-start gap-3 z-50 pointer-events-auto`}
+                className={`fixed bottom-4 md:bottom-8 left-4 md:left-10 flex flex-col items-start gap-2 md:gap-3 z-50 pointer-events-auto`}
             >
                 {showHireMe && (
                     <button
@@ -109,7 +109,7 @@ export default function ProgressNav({
                             direction="left"
                             yoyo={false}
                             pauseOnHover={false}
-                            className="font-serif text-2xl italic"
+                            className="font-serif text-lg md:text-2xl italic"
                         />
                     </button>
                 )}

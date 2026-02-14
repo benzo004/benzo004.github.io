@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import toolsData from '@/data/tools.json'
 import { useLanguage } from '../../contexts/LanguageContext'
-import ScrollFloat from '../ScrollFloat'
+import SectionTitle from '../SectionTitle'
 
 interface Tool {
     name: string;
@@ -31,15 +31,13 @@ export default function ToolboxSection() {
         <section id="skills" className="section-spacing border-b border-gray-200">
             <div className="container-minimal">
                 {/* Section title */}
-                <ScrollFloat
-                    containerClassName="text-section mb-20"
-                >
+                <SectionTitle className="mb-12 sm:mb-16 md:mb-20">
                     {t('tools.header')}
-                </ScrollFloat>
+                </SectionTitle>
 
-                <div className="space-y-24">
+                <div className="space-y-16 sm:space-y-24">
                     {/* Tools Categories */}
-                    <div className="space-y-16">
+                    <div className="space-y-12 sm:space-y-16">
                         {(toolsData.categories as ToolCategory[]).map((category: ToolCategory, catIndex: number) => (
                             <motion.div
                                 key={category.name.fr}
@@ -48,12 +46,12 @@ export default function ToolboxSection() {
                                 viewport={{ once: true }}
                                 transition={{ delay: catIndex * 0.1, duration: 0.6 }}
                             >
-                                <h4 className="text-xs font-semibold tracking-[0.2em] text-secondary/60 uppercase mb-8 flex items-center gap-4">
-                                    <span className="w-8 h-[1px] bg-accent/20"></span>
+                                <h4 className="text-xs font-semibold tracking-[0.2em] text-secondary/60 uppercase mb-6 sm:mb-8 flex items-center gap-3 sm:gap-4">
+                                    <span className="w-6 sm:w-8 h-[1px] bg-accent/20"></span>
                                     {category.name[language as 'fr' | 'en']}
                                 </h4>
 
-                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
                                     {category.tools.map((tool: Tool, index: number) => (
                                         <motion.div
                                             key={tool.name}
@@ -62,10 +60,10 @@ export default function ToolboxSection() {
                                             viewport={{ once: true }}
                                             transition={{ delay: 0.05 * index, duration: 0.4 }}
                                             whileHover={{ y: -5, scale: 1.02 }}
-                                            className="flex flex-col items-center justify-center p-6 rounded-2xl bg-white/50 border border-border/50 hover:border-accent/30 hover:bg-white hover:shadow-[0_10px_30px_rgba(0,0,0,0.05)] transition-all duration-300 group cursor-default"
+                                            className="flex flex-col items-center justify-center p-4 sm:p-6 rounded-2xl bg-white/50 border border-border/50 hover:border-accent/30 hover:bg-white hover:shadow-[0_10px_30px_rgba(0,0,0,0.05)] transition-all duration-300 group cursor-default min-h-[80px] sm:min-h-[100px]"
                                         >
                                             <div className="w-1.5 h-1.5 rounded-full bg-accent/30 group-hover:bg-accent group-hover:scale-150 transition-all duration-500 mb-2" />
-                                            <span className="text-sm font-clash font-semibold text-secondary group-hover:text-primary transition-colors duration-300 text-center">
+                                            <span className="text-xs sm:text-sm font-clash font-semibold text-secondary group-hover:text-primary transition-colors duration-300 text-center">
                                                 {tool.name}
                                             </span>
                                         </motion.div>
@@ -81,14 +79,14 @@ export default function ToolboxSection() {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="pt-16 border-t border-border/50"
+                        className="pt-12 sm:pt-16 border-t border-border/50"
                     >
-                        <h4 className="text-xs font-semibold tracking-[0.2em] text-secondary/60 uppercase mb-12 flex items-center gap-4">
-                            <span className="w-8 h-[1px] bg-accent/20"></span>
+                        <h4 className="text-xs font-semibold tracking-[0.2em] text-secondary/60 uppercase mb-8 sm:mb-12 flex items-center gap-3 sm:gap-4">
+                            <span className="w-6 sm:w-8 h-[1px] bg-accent/20"></span>
                             {t('about.lang')}
                         </h4>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                             {languages.map((lang, index) => (
                                 <motion.div
                                     key={lang.nameKey}
@@ -96,15 +94,15 @@ export default function ToolboxSection() {
                                     whileInView={{ opacity: 1, x: 0 }}
                                     viewport={{ once: true }}
                                     transition={{ delay: index * 0.1 }}
-                                    className="flex justify-between items-center p-6 rounded-2xl bg-white/30 border border-border/30 hover:border-accent/20 transition-all duration-300 group"
+                                    className="flex justify-between items-center p-4 sm:p-6 rounded-2xl bg-white/30 border border-border/30 hover:border-accent/20 transition-all duration-300 group"
                                 >
-                                    <div className="flex items-center gap-4">
-                                        <span className="text-2xl grayscale group-hover:grayscale-0 transition-all duration-500">{lang.flag}</span>
-                                        <span className="text-primary font-clash font-semibold group-hover:text-accent transition-colors">
+                                    <div className="flex items-center gap-3 sm:gap-4">
+                                        <span className="text-xl sm:text-2xl grayscale group-hover:grayscale-0 transition-all duration-500">{lang.flag}</span>
+                                        <span className="text-sm sm:text-base text-primary font-clash font-semibold group-hover:text-accent transition-colors">
                                             {t(lang.nameKey)}
                                         </span>
                                     </div>
-                                    <span className="text-[10px] uppercase tracking-widest text-secondary/60 px-3 py-1 bg-highlight/30 rounded-full border border-border/20">
+                                    <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-secondary/60 px-2 sm:px-3 py-1 bg-highlight/30 rounded-full border border-border/20 whitespace-nowrap">
                                         {t(lang.levelKey)}
                                     </span>
                                 </motion.div>

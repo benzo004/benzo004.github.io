@@ -4,7 +4,7 @@ export default function LanguageSwitcher() {
     const { language, setLanguage } = useLanguage();
 
     return (
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
             <button
                 type="button"
                 onClick={() => setLanguage('fr')}
@@ -12,7 +12,7 @@ export default function LanguageSwitcher() {
                     }`}
                 aria-label="Français"
             >
-                <span className="text-2xl">🇫🇷</span>
+                <span className="text-xl sm:text-2xl">🇫🇷</span>
             </button>
             <button
                 type="button"
@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
                     }`}
                 aria-label="English"
             >
-                <span className="text-2xl">🇬🇧</span>
+                <span className="text-xl sm:text-2xl">🇬🇧</span>
             </button>
         </div>
     );

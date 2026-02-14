@@ -49,17 +49,17 @@ function SlideToBegin({ onComplete }: SlideToBeginProps) {
             variants={ctaVariants}
             initial="hidden"
             animate="visible"
-            className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20"
+            className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 z-20 px-4 sm:px-0"
         >
             <div className="flex flex-col items-center gap-1">
                 <label
                     htmlFor="hero-range"
-                    className="font-clash font-bold text-[1.625rem] md:text-[1.625rem] uppercase tracking-normal text-white w-80 text-center whitespace-nowrap overflow-hidden leading-none mb-0.5"
+                    className="font-clash font-bold text-xl sm:text-[1.625rem] uppercase tracking-normal text-white w-full sm:w-80 text-center whitespace-nowrap overflow-hidden leading-none mb-0.5"
                 >
                     Slide to begin
                 </label>
-                <div className="relative group overflow-hidden">
-                    <div className="w-80 h-10 border border-white/40 rounded-full flex items-center px-1 relative overflow-hidden bg-black/20 backdrop-blur-sm">
+                <div className="relative group overflow-hidden w-full sm:w-auto">
+                    <div className="w-full sm:w-80 h-10 border border-white/40 rounded-full flex items-center px-1 relative overflow-hidden bg-black/20 backdrop-blur-sm">
                         <div
                             className="absolute left-1 top-1/2 -translate-y-1/2 h-8 bg-white rounded-full transition-all duration-75"
                             style={{ width: `calc(32px + ${sliderValue} * (100% - 40px))` }}
@@ -117,7 +117,7 @@ export default function HeroSection({ onStart }: HeroSectionProps) {
     }, [onStart])
 
     return (
-        <section id="home" className="h-full flex items-center justify-start p-10 md:p-16 relative overflow-hidden">
+        <section id="home" className="h-full flex items-center justify-start p-6 sm:p-10 md:p-16 relative overflow-hidden">
             {/* LiquidEther Background */}
             <div className="absolute inset-0 z-0">
                 <LiquidEther

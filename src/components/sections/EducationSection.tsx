@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useLanguage } from '../../contexts/LanguageContext'
-import ScrollFloat from '../ScrollFloat'
+import SectionTitle from '../SectionTitle'
 
 export default function EducationSection() {
     const { t } = useLanguage()
@@ -21,15 +21,15 @@ export default function EducationSection() {
     return (
         <section id="education" className="section-spacing border-b border-gray-200">
             <div className="container-minimal">
-                <ScrollFloat containerClassName="text-section mb-20">
+                <SectionTitle className="mb-12 sm:mb-16 md:mb-20">
                     {t('education.header')}
-                </ScrollFloat>
+                </SectionTitle>
 
-                <div className="space-y-8">
+                <div className="space-y-6 sm:space-y-8">
                     {educationItems.map((edu, index) => (
                         <motion.div
                             key={edu.degree}
-                            className="flex items-start gap-6 pb-8 border-b border-gray-100 last:border-0"
+                            className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 pb-6 sm:pb-8 border-b border-gray-100 last:border-0"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -39,16 +39,16 @@ export default function EducationSection() {
                                 <span className="text-2xl">🎓</span>
                             </div>
 
-                            <div className="flex-1">
-                                <div className="flex items-start justify-between gap-4 mb-2">
-                                    <div>
-                                        <h3 className="text-lg font-clash font-semibold text-primary mb-1">
+                            <div className="flex-1 w-full">
+                                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-2">
+                                    <div className="flex-1">
+                                        <h3 className="text-base sm:text-lg font-clash font-semibold text-primary mb-1">
                                             {edu.degree}
                                         </h3>
                                         <p className="text-sm text-secondary italic">{edu.school}</p>
                                     </div>
 
-                                    <div className="text-right">
+                                    <div className="sm:text-right">
                                         <span className="text-sm text-secondary whitespace-nowrap">{edu.year}</span>
                                     </div>
                                 </div>

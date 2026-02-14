@@ -39,12 +39,12 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
         <footer
             id="footer"
             ref={footerRef}
-            className="w-full bg-background text-foreground py-20 px-10 md:px-16 font-mono border-t border-border"
+            className="w-full bg-background text-foreground py-12 sm:py-16 md:py-20 px-6 sm:px-10 md:px-16 font-mono border-t border-border"
         >
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-start">
                 {/* Left Side: Message */}
-                <div className="flex flex-col gap-6 max-w-md">
-                    <p className="text-lg md:text-xl leading-snug">
+                <div className="flex flex-col gap-4 sm:gap-6 max-w-md">
+                    <p className="text-base sm:text-lg md:text-xl leading-snug">
                         <DecryptedText
                             key={`msg1-${language}`}
                             text={t('footer.message.1')}
@@ -53,7 +53,7 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
                             speed={getSyncSpeed(t('footer.message.1'))}
                         />
                     </p>
-                    <p className="text-lg md:text-xl leading-snug">
+                    <p className="text-base sm:text-lg md:text-xl leading-snug">
                         {(() => {
                             const p1 = t('footer.message.3')
                             const p2 = t('footer.contact')
@@ -98,10 +98,10 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
                     </p>
 
                     {/* Click to Copy Email (Static) */}
-                    <div className="mt-4">
+                    <div className="mt-3 sm:mt-4">
                         <button
                             onClick={handleCopy}
-                            className={`invert-hover transition-all duration-200 uppercase text-lg md:text-xl leading-none ${copied ? 'text-accent' : ''}`}
+                            className={`invert-hover transition-all duration-200 uppercase text-base sm:text-lg md:text-xl leading-none ${copied ? 'text-accent' : ''}`}
                         >
                             {copied ? t('footer.copied') : email}
                         </button>
@@ -109,15 +109,15 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
                 </div>
 
                 {/* Right Side: Social Links & Back to Top */}
-                <div className="flex flex-col items-end gap-12">
-                    <ul className="flex flex-col items-end gap-2">
+                <div className="flex flex-col items-start md:items-end gap-8 sm:gap-12">
+                    <ul className="flex flex-col items-start md:items-end gap-2">
                         {socialLinks.map((link) => (
                             <li key={link.name}>
                                 <a
                                     href={link.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="font-clash font-bold text-2xl md:text-4xl tracking-tight transition-all duration-200 hover:skew-x-[-10deg] hover:opacity-70 inline-block"
+                                    className="font-clash font-bold text-xl sm:text-2xl md:text-4xl tracking-tight transition-all duration-200 hover:skew-x-[-10deg] hover:opacity-70 inline-block"
                                 >
                                     <DecryptedText
                                         key={`${link.name}-${language}`}
@@ -134,9 +134,9 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
                     {/* Back to Home Button */}
                     <button
                         onClick={onBackToTop}
-                        className="group flex flex-col items-end gap-1 transition-colors duration-300 mt-12"
+                        className="group flex flex-col items-start md:items-end gap-1 transition-colors duration-300 mt-8 sm:mt-12"
                     >
-                        <span className="font-clash font-bold text-xl md:text-2xl tracking-widest hover:text-accent transition-colors">
+                        <span className="font-clash font-bold text-lg sm:text-xl md:text-2xl tracking-widest hover:text-accent transition-colors">
                             <DecryptedText
                                 key={`backToTop-${language}`}
                                 text={t('footer.backToTop')}
@@ -150,8 +150,8 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
             </div>
 
             {/* Bottom Credit */}
-            <div className="mt-20 text-center">
-                <p className="text-sm opacity-60 uppercase tracking-widest">
+            <div className="mt-12 sm:mt-16 md:mt-20 text-center">
+                <p className="text-xs sm:text-sm opacity-60 uppercase tracking-widest">
                     <DecryptedText
                         key={`credit-${language}`}
                         text={footerCredit}
