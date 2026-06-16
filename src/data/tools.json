@@ -31,7 +31,11 @@
                     "level": "advanced"
                 },
                 {
-                    "name": "Virtualisation, Conteneurisation (vmware, docker)",
+                    "name": "Virtualisation (VMware)",
+                    "level": "advanced"
+                },
+                {
+                    "name": "Docker",
                     "level": "advanced"
                 }
             ]
@@ -79,7 +83,7 @@
                     "level": "intermediate"
                 },
                 {
-                    "name": "Integrations IA (LLMs)",
+                    "name": "Integrations IA (LLMs, Claude, Claude Code)",
                     "level": "advanced"
                 },
                 {
@@ -89,6 +93,10 @@
                 {
                     "name": "FastAPI",
                     "level": "intermediate"
+                },
+                {
+                    "name": "Git (GitHub, branches, CI/CD)",
+                    "level": "advanced"
                 }
             ]
         }

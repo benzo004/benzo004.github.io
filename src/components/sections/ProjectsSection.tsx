@@ -1,9 +1,6 @@
-import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import ScrollStack, { ScrollStackItem } from '@/components/ScrollStack'
 import { useLanguage } from '../../contexts/LanguageContext'
 import projectsData from '@/data/projects.json'
-import ScrollFloat from '../ScrollFloat'
 import SectionTitle from '../SectionTitle'
 
 import labNetworkUpdateImg from '@/assets/images/lab-network-update.png'
@@ -38,47 +35,48 @@ function resolveProjectImage(project: Project): string | undefined {
     return undefined
 }
 
-// Composant de carte simple pour mobile
-function SimpleProjectCard({ project, index }: { project: Project; index: number }) {
+function ProjectRow({ project, index }: { project: Project; index: number }) {
     const { language, t } = useLanguage()
 
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 30 }}
+        <motion.article
+            initial={{ opacity: 0, y: 32 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
-            transition={{ delay: index * 0.15, duration: 0.6 }}
-            className="bg-background border border-border rounded-3xl overflow-hidden shadow-lg"
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center"
         >
-            {/* Image du projet */}
+            {/* Image */}
             {project.image && (
-                <div className="w-full h-48 overflow-hidden bg-gray-100">
-                    <img
-                        src={resolveProjectImage(project) ?? project.image}
-                        alt={project.title[language as 'fr' | 'en']}
-                        className="w-full h-full object-cover"
-                    />
+                <div className={`lg:col-span-7 ${index % 2 === 1 ? 'lg:order-last' : ''}`}>
+                    <div className="overflow-hidden rounded-2xl border border-border bg-gray-100 aspect-[16/10]">
+                        <img
+                            src={resolveProjectImage(project) ?? project.image}
+                            alt={project.title[language as 'fr' | 'en']}
+                            loading="lazy"
+                            className="w-full h-full object-cover transition-transform duration-700 hover:scale-[1.03]"
+                        />
+                    </div>
                 </div>
             )}
 
-            {/* Contenu */}
-            <div className="p-6">
-                <p className="text-xs font-mono text-accent mb-2 uppercase tracking-widest font-semibold">
+            {/* Content */}
+            <div className={project.image ? 'lg:col-span-5' : 'lg:col-span-12'}>
+                <p className="font-mono text-xs text-accent uppercase tracking-[0.2em] font-semibold mb-3">
                     {project.type}
                 </p>
-                <h3 className="text-xl font-clash font-semibold text-primary mb-3">
+                <h3 className="font-clash font-semibold text-primary text-2xl sm:text-3xl leading-tight mb-4">
                     {project.title[language as 'fr' | 'en']}
                 </h3>
-                <p className="text-sm text-secondary leading-relaxed mb-4 whitespace-pre-line">
+                <p className="text-secondary text-sm sm:text-base leading-relaxed whitespace-pre-line mb-6">
                     {project.description[language as 'fr' | 'en']}
                 </p>
 
-                {/* Technologies - badges discrets */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map(tag => (
                         <span
                             key={tag}
-                            className="px-2.5 py-1 bg-gray-100 text-secondary text-[10px] font-mono rounded-full border border-gray-200"
+                            className="px-3 py-1 bg-white/60 text-secondary text-[11px] font-mono rounded-full border border-border"
                         >
                             {tag}
                         </span>
@@ -88,123 +86,35 @@ function SimpleProjectCard({ project, index }: { project: Project; index: number
                 {project.link && project.link !== '#' && (
                     <a
                         href={project.link}
-                        className="text-sm font-medium text-primary hover:text-accent transition-colors duration-400 flex items-center gap-2 group"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-accent transition-colors duration-300"
                     >
-                        {t('nav.discover')} <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
+                        {t('nav.discover')}
+                        <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
                     </a>
                 )}
             </div>
-        </motion.div>
+        </motion.article>
     )
 }
 
 export default function ProjectsSection() {
-    const { language, t } = useLanguage()
-    const [isMobile, setIsMobile] = useState(false)
+    const { t } = useLanguage()
 
-    useEffect(() => {
-        const checkMobile = () => {
-            setIsMobile(window.innerWidth < 1024) // lg breakpoint
-        }
-
-        checkMobile()
-        window.addEventListener('resize', checkMobile)
-        return () => window.removeEventListener('resize', checkMobile)
-    }, [])
-
-    // Version mobile simple
-    if (isMobile) {
-        return (
-            <section id="projects" className="section-spacing bg-background">
-                <div className="container-minimal">
-                    <SectionTitle className="mb-12">
-                        {t('section.projects')}
-                    </SectionTitle>
-
-                    <div className="space-y-8">
-                        {projectsData.projects.map((project: Project, index: number) => (
-                            <SimpleProjectCard key={project.id} project={project} index={index} />
-                        ))}
-                    </div>
-                </div>
-            </section>
-        )
-    }
-
-    // Version desktop avec ScrollStack
     return (
-        <section id="projects" className="bg-background">
-            <ScrollStack
-                stackPosition="12vh"
-                itemScale={0.05}
-                itemStackDistance={25}
-                useWindowScroll={true}
-                header={
-                    <ScrollFloat
-                        containerClassName="text-section mb-0 flex items-center justify-center gap-4"
-                        textClassName="flex items-center gap-4"
-                    >
-                        {t('section.projects')}
-                    </ScrollFloat>
-                }
-            >
-                {projectsData.projects.map((project: Project) => (
-                    <ScrollStackItem key={project.id} itemClassName="bg-background border border-border h-auto min-h-[500px] flex flex-col lg:flex-row gap-8 items-stretch !p-8 lg:!p-12">
-                        {/* Image du projet */}
-                        {project.image && (
-                            <div className="lg:w-1/3 h-64 lg:h-auto overflow-hidden rounded-lg bg-gray-100 flex-shrink-0">
-                                <img
-                                    src={resolveProjectImage(project) ?? project.image}
-                                    alt={project.title[language as 'fr' | 'en']}
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                                />
-                            </div>
-                        )}
+        <section id="projects" className="section-spacing bg-background">
+            <div className="container-minimal">
+                <SectionTitle className="mb-12 sm:mb-16 md:mb-20">
+                    {t('section.projects')}
+                </SectionTitle>
 
-                        {/* Contenu */}
-                        <div className="flex-1 flex flex-col justify-center">
-                            <h3 className="text-3xl font-clash font-semibold text-primary mb-3">
-                                {project.title[language as 'fr' | 'en']}
-                            </h3>
-                            <p className="text-sm font-mono text-accent mb-6 uppercase tracking-widest font-semibold">
-                                {project.type}
-                            </p>
-                            <div className="prose prose-sm text-secondary leading-relaxed mb-8 max-w-4xl">
-                                <p className="whitespace-pre-line text-lg">
-                                    {project.description[language as 'fr' | 'en']}
-                                </p>
-                            </div>
-
-                            {/* Technologies - badges discrets */}
-                            <div className="flex flex-wrap gap-2 mt-auto">
-                                {project.tags.map(tag => (
-                                    <span
-                                        key={tag}
-                                        className="px-3 py-1 bg-gray-100 text-secondary text-xs font-mono rounded-full border border-gray-200"
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
-
-                            {project.link && project.link !== '#' && (
-                                <div className="mt-8">
-                                    <a
-                                        href={project.link}
-                                        className="text-sm font-medium text-primary hover:text-accent transition-colors duration-400 flex items-center gap-2 group"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        {t('nav.discover')} <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
-                                    </a>
-                                </div>
-                            )}
-                        </div>
-                    </ScrollStackItem>
-                ))}
-            </ScrollStack>
+                <div className="space-y-16 sm:space-y-24 md:space-y-32">
+                    {projectsData.projects.map((project: Project, index: number) => (
+                        <ProjectRow key={project.id} project={project} index={index} />
+                    ))}
+                </div>
+            </div>
         </section>
     )
 }

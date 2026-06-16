@@ -281,6 +281,19 @@
   .font-clash {
     font-family: 'Clash Display', sans-serif;
   }
+
+  /* Floating skill blobs (knowledge graph) */
+  @keyframes skillBlobFloat {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(0, -4px); }
+  }
+
+  .skill-blob-float {
+    animation-name: skillBlobFloat;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    will-change: transform;
+  }
 }
 
 @layer utilities {

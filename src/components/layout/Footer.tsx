@@ -10,7 +10,7 @@ export default function Footer({ onBackToTop }: { onBackToTop?: () => void }) {
     const currentYear = new Date().getFullYear()
     const [copied, setCopied] = useState(false)
 
-    const email = 'withandrii@proton.me'
+    const email = 'andriizaritskyi3@gmail.com'
     const footerCredit = `${currentYear} — ANDRII`
 
     const handleCopy = () => {

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { ShieldCheck } from 'lucide-react'
 import certificationsData from '@/data/certifications.json'
 import { useLanguage } from '../../contexts/LanguageContext'
 import SectionTitle from '../SectionTitle'
@@ -38,7 +39,7 @@ export default function CertificationsSection() {
                         >
                             {/* Icon */}
                             <div className="flex-shrink-0 w-12 h-12 bg-highlight rounded-full flex items-center justify-center">
-                                <span className="text-2xl">🛡️</span>
+                                <ShieldCheck className="w-5 h-5 text-accent" strokeWidth={1.8} />
                             </div>
 
                             {/* Content */}

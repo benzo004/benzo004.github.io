@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
 import ProgressNav from '@/components/layout/ProgressNav'
-import HeroSection from '@/components/sections/HeroSection'
 import TaglineSection from '@/components/sections/TaglineSection'
 import ExperiencesSection from '@/components/sections/ExperiencesSection'
 import ProjectsSection from '@/components/sections/ProjectsSection'
@@ -12,17 +10,10 @@ import Footer from '@/components/layout/Footer'
 
 
 export default function PortfolioPage() {
-    const [showLanding, setShowLanding] = useState(true)
     const [isFooterVisible, setIsFooterVisible] = useState(false)
     const [showProgressBar, setShowProgressBar] = useState(false)
 
     useEffect(() => {
-        if (showLanding) {
-            setIsFooterVisible(false)
-            setShowProgressBar(false)
-            return
-        }
-
         let footerObserver: IntersectionObserver | null = null
         let retryTimer: number | null = null
 
@@ -65,59 +56,31 @@ export default function PortfolioPage() {
             window.removeEventListener('scroll', handleScroll)
             window.removeEventListener('resize', handleScroll)
         }
-    }, [showLanding])
+    }, [])
 
-    const handleUnlock = () => {
-        setShowLanding(false)
-        // Scroll to top to ensure we start at the beginning of content
-        setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' })
-        }, 100)
-    }
-
-    const handleLock = () => {
-        setShowLanding(true)
+    const handleBackToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
     }
 
     return (
         <div className="min-h-screen bg-background overflow-x-hidden relative">
             <ProgressNav
-                showNav={!showLanding}
-                showHireMe={!showLanding}
-                showLanguages={!showLanding}
-                dimmed={!showLanding && isFooterVisible}
-                hidden={!showLanding && !showProgressBar}
+                showNav
+                showHireMe
+                showLanguages
+                dimmed={isFooterVisible}
+                hidden={!showProgressBar}
             />
 
-            <AnimatePresence mode="wait">
-                {showLanding ? (
-                    <motion.div
-                        key="landing"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0, y: -50, transition: { duration: 0.5 } }}
-                        className="fixed inset-0 z-30 bg-background overflow-hidden"
-                    >
-                        <HeroSection onStart={handleUnlock} />
-                    </motion.div>
-                ) : (
-                    <motion.main
-                        key="portfolio"
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="pt-0"
-                    >
-                        <TaglineSection />
-                        <ExperiencesSection />
-                        <ProjectsSection />
-                        <CertificationsSection />
-                        <EducationSection />
-                        <ToolboxSection />
-                        <Footer onBackToTop={handleLock} />
-                    </motion.main>
-                )}
-            </AnimatePresence>
+            <main>
+                <TaglineSection />
+                <ExperiencesSection />
+                <ProjectsSection />
+                <CertificationsSection />
+                <EducationSection />
+                <ToolboxSection />
+                <Footer onBackToTop={handleBackToTop} />
+            </main>
         </div>
     )
 }

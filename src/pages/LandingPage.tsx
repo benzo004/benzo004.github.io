@@ -61,7 +61,7 @@ export default function LandingPage() {
                                 </svg>
                             </a>
                             <a
-                                href="mailto:contact@andrii-z.com"
+                                href="mailto:andriizaritskyi3@gmail.com"
                                 className="text-secondary hover:text-accent transition-colors duration-400"
                                 aria-label="Email"
                             >

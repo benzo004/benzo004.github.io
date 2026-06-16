@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { GraduationCap } from 'lucide-react'
 import { useLanguage } from '../../contexts/LanguageContext'
 import SectionTitle from '../SectionTitle'
 
@@ -36,7 +37,7 @@ export default function EducationSection() {
                             transition={{ delay: index * 0.1, duration: 0.6 }}
                         >
                             <div className="flex-shrink-0 w-12 h-12 bg-highlight rounded-full flex items-center justify-center">
-                                <span className="text-2xl">🎓</span>
+                                <GraduationCap className="w-5 h-5 text-accent" strokeWidth={1.8} />
                             </div>
 
                             <div className="flex-1 w-full">

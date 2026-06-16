@@ -1,6 +1,44 @@
 {
     "experiences": [
         {
+            "id": "exp-livecount",
+            "company": "LiveCount",
+            "position": {
+                "fr": "Stagiaire Security Engineer",
+                "en": "Security Engineer Intern"
+            },
+            "period": "Mai 2026 - Juillet 2026",
+            "category": "Cybersécurité",
+            "description": {
+                "fr": "Startup concevant des clickers intelligents pour compter la fréquentation des lieux événementiels (boîtes de nuit, bars et tout lieu nécessitant un comptage), avec une donnée ensuite analysable.\nEn charge de la sécurisation des dispositifs et des données collectées.",
+                "en": "Startup building smart clickers to count attendance in event venues (nightclubs, bars and any place requiring people counting), turning it into analyzable data.\nResponsible for securing the devices and the collected data."
+            },
+            "tags": [
+                "Security Engineering",
+                "Startup",
+                "IoT"
+            ]
+        },
+        {
+            "id": "exp-marquis",
+            "company": "Le Marquis Hôtel by Inwood Hotels",
+            "position": {
+                "fr": "Réceptionniste de Nuit",
+                "en": "Night Receptionist"
+            },
+            "period": "Février 2026 - Présent",
+            "category": "Autre",
+            "description": {
+                "fr": "Réceptionniste de nuit en autonomie totale dans un hôtel de luxe au pied de la Tour Eiffel, pour une clientèle internationale très touristique.\nSeul responsable des 36 chambres durant toute la nuit et de l'organisation des équipes du lendemain.",
+                "en": "Sole night receptionist in a luxury hotel at the foot of the Eiffel Tower, serving a highly touristic international clientele.\nSingle-handedly responsible for all 36 rooms overnight and for organizing the next day's teams."
+            },
+            "tags": [
+                "Responsabilité",
+                "Luxe",
+                "Clientèle internationale"
+            ]
+        },
+        {
             "id": "exp-boxe",
             "company": "Indépendant",
             "position": {
@@ -69,8 +107,8 @@
             "period": "Mai 2025 - Présent",
             "category": "Cybersécurité",
             "description": {
-                "fr": "Développement de scripts Python et d'automatisations IA pour cadres indépendants.\nCréation de dashboards sur mesure pour l'optimisation de productivité.",
-                "en": "Development of Python scripts and AI automations for independent executives.\nCreation of custom dashboards for productivity optimization."
+                "fr": "Développement de scripts Python, d'automatisations IA et de dashboards sur mesure pour des professionnels.\nDes solutions qui leur libèrent du temps et de l'énergie pour se concentrer sur les 20% de leur activité les plus importants.",
+                "en": "Development of custom Python scripts, AI automations and dashboards for professionals.\nSolutions that free up their time and energy to focus on the most important 20% of their activity."
             },
             "tags": [
                 "Python",
