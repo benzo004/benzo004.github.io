@@ -1,6 +1,27 @@
 {
     "projects": [
         {
+            "id": "proj-pdr-cockpit",
+            "title": {
+                "fr": "PDR Cockpit - Plateforme de prospection B2B",
+                "en": "PDR Cockpit - B2B Prospecting Platform"
+            },
+            "type": "Product · Full-Stack",
+            "image": "/src/assets/images/01-planification-carte.webp",
+            "description": {
+                "fr": "Plateforme web que je conçois et développe de bout en bout pour ma propre activité d'apport d'affaires en débosselage sans peinture (réparation de carrosserie spécialité grêle).\n\nL'outil cartographie et qualifie automatiquement plus de 7 000 prospects B2B en Île-de-France (concessionnaires, loueurs, flottes), planifie des tournées de démarchage terrain optimisées (itinéraire le plus court, horaires d'ouverture respectés) et trace les commissions au centime près, du premier contact jusqu'au paiement.\n\nStack full-stack moderne (Next.js, base géospatiale PostgreSQL/PostGIS, optimiseur d'itinéraires) construite en spec-driven avec tests automatisés, garde-fou anti-dépassement de budget API et gestion stricte des secrets : la rigueur cyber appliquée à un produit que je pilote en tant qu'entrepreneur.",
+                "en": "A web platform I design and build end-to-end for my own business as a deal-broker in paintless dent repair (hail-damage bodywork specialty).\n\nThe tool automatically maps and qualifies 7,000+ B2B prospects across the Paris region (car dealers, rental and fleet companies), plans optimized field-canvassing routes (shortest path, opening hours respected) and tracks commissions to the cent, from first contact to payment.\n\nA modern full-stack stack (Next.js, geospatial PostgreSQL/PostGIS database, route optimizer) built spec-driven with automated tests, an API-budget safeguard and strict secrets management: cybersecurity rigor applied to a product I run as an entrepreneur."
+            },
+            "tags": [
+                "Next.js",
+                "PostgreSQL / PostGIS",
+                "Geospatial",
+                "Route Optimization",
+                "Entrepreneurship"
+            ],
+            "link": "#"
+        },
+        {
             "id": "proj-lab-infra",
             "title": {
                 "fr": "Infrastructure Lab GNS3 / pfSense & Stormshield",

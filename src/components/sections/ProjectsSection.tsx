@@ -3,6 +3,7 @@ import { useLanguage } from '../../contexts/LanguageContext'
 import projectsData from '@/data/projects.json'
 import SectionTitle from '../SectionTitle'
 
+import pdrCockpitImg from '@/assets/images/01-planification-carte.webp'
 import labNetworkUpdateImg from '@/assets/images/lab-network-update.png'
 import pentestSilverhandImg from '@/assets/images/pentest-silverhand.png'
 import osintIntelligenceUpdateImg from '@/assets/images/osint-intelligence-update.png'
@@ -28,6 +29,7 @@ function resolveProjectImage(project: Project): string | undefined {
 
     const lower = project.image.toLowerCase()
 
+    if (lower.includes('01-planification-carte.webp')) return pdrCockpitImg
     if (lower.includes('lab-network-update.png')) return labNetworkUpdateImg
     if (lower.includes('pentest-silverhand.png')) return pentestSilverhandImg
     if (lower.includes('osint-intelligence-update.png')) return osintIntelligenceUpdateImg
